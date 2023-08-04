@@ -251,17 +251,17 @@ x2 = [cap * (-1), cap, cap, cap * (-1)]
 y2 = [sameMassTaperedWidth / 2, sameMassTaperedWidth / 2, sameMassTaperedWidth * (-0.5), sameMassTaperedWidth * (-0.5)]
   
 # plotting the points 
-plt.plot(x1, y1, linewidth = 2, color = 'red', label = "Untapered Ribbon (Same Velocity)")
-plt.plot(x2, y2, linewidth = 2, color = 'blue', label = "Untapered Ribbon (Same Mass)")
-plt.plot(x, y, linewidth = 2, color = 'black', label = "Tapered Ribbon")
+#plt.plot(x1, y1, linewidth = 2, color = 'red', label = "Untapered Ribbon (Same Velocity)")
+#plt.plot(x2, y2, linewidth = 2, color = 'blue', label = "Untapered Ribbon (Same Mass)")
+#plt.plot(x, y, linewidth = 2, color = 'black', label = "Tapered Ribbon")
   
 # setting x and y axis range
-plt.ylim(neededUntaperedWidth / 2 * (-1.1), neededUntaperedWidth / 2 * 1.1)
-plt.xlim(cap * (-1), cap)
+#plt.ylim(neededUntaperedWidth / 2 * (-1.1), neededUntaperedWidth / 2 * 1.1)
+#plt.xlim(cap * (-1), cap)
   
 #adding labels to the plot
-plt.legend()
-plt.xlabel('Distance from Center (m)')
-plt.ylabel('Ribbon Width Boundaries (m)')
-plt.title('Ribbon Taper Visualization')
-plt.show()
+#plt.legend()
+#plt.xlabel('Distance from Center (m)')
+#plt.ylabel('Ribbon Width Boundaries (m)')
+#plt.title('Ribbon Taper Visualization')
+#plt.show()
